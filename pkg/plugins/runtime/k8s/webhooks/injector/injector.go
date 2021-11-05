@@ -129,6 +129,7 @@ func (i *KumaInjector) needInject(pod *kube_core.Pod, ns *kube_core.Namespace) (
 		log.V(1).Info("pod fulfills exception requirements")
 		return false, nil
 	}
+
 	enabled, exist, err := metadata.Annotations(pod.Annotations).GetEnabled(metadata.KumaSidecarInjectionAnnotation)
 	if err != nil {
 		return false, err

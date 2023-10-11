@@ -48,8 +48,8 @@ require (
 	github.com/testcontainers/testcontainers-go v0.12.0
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.19.1
-	golang.org/x/net v0.0.0-20211108170745-6635138e15ea
-	golang.org/x/sys v0.0.0-20211109184856-51b60fd695b3
+	golang.org/x/net v0.17.0
+	golang.org/x/sys v0.13.0
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 	google.golang.org/genproto v0.0.0-20211013025323-ce878158c4d4
 	google.golang.org/grpc v1.42.0
@@ -173,12 +173,12 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
-	golang.org/x/mod v0.5.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f // indirect
-	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.5 // indirect
+	golang.org/x/term v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
